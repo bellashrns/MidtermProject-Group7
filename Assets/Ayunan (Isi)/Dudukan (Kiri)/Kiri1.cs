@@ -41,7 +41,7 @@ public class Kiri1 : MonoBehaviour
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
 
-        transform.position = new Vector3(1.8f, 0.2f, 0.95f);
+        // transform.position = new Vector3(1.8f, 0.2f, 0.95f);
         // kebalikan dari z
 
         // transform.position = new Vector3(12.15f, 2.9f, 1.75f);

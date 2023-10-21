@@ -41,7 +41,7 @@ public class Kanan2 : MonoBehaviour
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
 
-        transform.position = new Vector3(-1.75f, 0.2f, -0.95f);
+        // transform.position = new Vector3(-1.75f, 0.2f, -0.95f);
         transform.localRotation = Quaternion.Euler(58, 0, 0);
         // transform.position = new Vector3(12.15f, 2.9f, -0.1f);
         // transform.localRotation = Quaternion.Euler(58, 0, 0);

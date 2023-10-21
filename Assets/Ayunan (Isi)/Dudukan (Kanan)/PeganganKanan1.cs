@@ -41,7 +41,7 @@ public class PeganganKanan1 : MonoBehaviour
         mesh.RecalculateNormals();
 
         // transform.position = new Vector3(16.25f, 6.8f, 1.4f);
-        transform.position = new Vector3(-1.75f, 0.2f, 0.95f);
+        // transform.position = new Vector3(-1.75f, 0.2f, 0.95f);
         transform.localRotation = Quaternion.Euler(-58, 0, 0);
     }
 

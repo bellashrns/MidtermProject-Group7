@@ -42,7 +42,7 @@ public class Kiri2 : MonoBehaviour
         mesh.RecalculateNormals();
 
         // transform.position = new Vector3(16.4f, 6.8f, -0.6f);
-        transform.position = new Vector3(1.8f, 0.2f, -0.95f);
+        // transform.position = new Vector3(1.8f, 0.2f, -0.95f);
         // kebalikan dari z
     
 
