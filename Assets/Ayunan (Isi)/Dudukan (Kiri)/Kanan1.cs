@@ -42,6 +42,9 @@ public class Kanan1 : MonoBehaviour
         mesh.RecalculateNormals();
 
         transform.position = new Vector3(-1.75f, 0.2f, 0.95f);
+        // kebalikan dari z
+    
+
 
         // transform.position = new Vector3(12.15f, 2.9f, 1.75f);
         transform.localRotation = Quaternion.Euler(-58, 0, 0);

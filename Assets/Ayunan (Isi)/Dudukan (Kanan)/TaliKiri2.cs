@@ -42,6 +42,7 @@ public class TaliKiri2 : MonoBehaviour
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
 
+        // transform.position = new Vector3(16.4f, 7.35f, 0.43f);
         transform.position = new Vector3(1.8f, 0.6f, 0);
         transform.localRotation = Quaternion.Euler(0, 0, 0);
     }
