@@ -21,53 +21,53 @@ public class Meja : MonoBehaviour
 
         vertices[0] = new Vector3(0, 0, 0);
         vertices[1] = new Vector3(0, 0, 1);
-        vertices[2] = new Vector3(0, 5, 0);
-        vertices[3] = new Vector3(0, 5, 1);
+        vertices[2] = new Vector3(0, 10, 0);
+        vertices[3] = new Vector3(0, 10, 1);
 
         vertices[4] = new Vector3(1, 0, 0);
-        vertices[5] = new Vector3(1, 5, 0);
+        vertices[5] = new Vector3(1, 10, 0);
         vertices[6] = new Vector3(1, 0, 1);
-        vertices[7] = new Vector3(1, 5, 1);
+        vertices[7] = new Vector3(1, 10, 1);
 
-        vertices[8] = new Vector3(5, 0, 0);
-        vertices[9] = new Vector3(5, 0, 1);
-        vertices[10] = new Vector3(5, 5, 0);
-        vertices[11] = new Vector3(5, 5, 1);
+        vertices[8] = new Vector3(10, 0, 0);
+        vertices[9] = new Vector3(10, 0, 1);
+        vertices[10] = new Vector3(10, 10, 0);
+        vertices[11] = new Vector3(10, 10, 1);
 
-        vertices[12] = new Vector3(6, 0, 0);
-        vertices[13] = new Vector3(6, 5, 0);
-        vertices[14] = new Vector3(6, 0, 1);
-        vertices[15] = new Vector3(6, 5, 1);
+        vertices[12] = new Vector3(12, 0, 0);
+        vertices[13] = new Vector3(12, 10, 0);
+        vertices[14] = new Vector3(12, 0, 1);
+        vertices[15] = new Vector3(12, 10, 1);
 
-        vertices[16] = new Vector3(5, 0, 5);
-        vertices[17] = new Vector3(5, 0, 6);
-        vertices[18] = new Vector3(5, 5, 5);
-        vertices[19] = new Vector3(5, 5, 6);
+        vertices[16] = new Vector3(10, 0, 10);
+        vertices[17] = new Vector3(10, 0, 12);
+        vertices[18] = new Vector3(10, 10, 10);
+        vertices[19] = new Vector3(10, 10, 12);
 
-        vertices[20] = new Vector3(6, 0, 5);
-        vertices[21] = new Vector3(6, 5, 5);
-        vertices[22] = new Vector3(6, 0, 6);
-        vertices[23] = new Vector3(6, 5, 6);
+        vertices[20] = new Vector3(12, 0, 10);
+        vertices[21] = new Vector3(12, 10, 10);
+        vertices[22] = new Vector3(12, 0, 12);
+        vertices[23] = new Vector3(12, 10, 12);
 
-        vertices[24] = new Vector3(0, 0, 5);
-        vertices[25] = new Vector3(0, 0, 6);
-        vertices[26] = new Vector3(0, 5, 5);
-        vertices[27] = new Vector3(0, 5, 6);
+        vertices[24] = new Vector3(0, 0, 10);
+        vertices[25] = new Vector3(0, 0, 12);
+        vertices[26] = new Vector3(0, 10, 10);
+        vertices[27] = new Vector3(0, 10, 12);
 
-        vertices[28] = new Vector3(1, 0, 5);
-        vertices[29] = new Vector3(1, 5, 5);
-        vertices[30] = new Vector3(1, 0, 6);
-        vertices[31] = new Vector3(1, 5, 6);
+        vertices[28] = new Vector3(1, 0, 10);
+        vertices[29] = new Vector3(1, 10, 10);
+        vertices[30] = new Vector3(1, 0, 12);
+        vertices[31] = new Vector3(1, 10, 12);
 
-        vertices[32] = new Vector3(-1, 5, -1);
-        vertices[33] = new Vector3(-1, 5, 7);
-        vertices[34] = new Vector3(7, 5, -1);
-        vertices[35] = new Vector3(7, 5, 7);
+        vertices[32] = new Vector3(-1, 10, -1);
+        vertices[33] = new Vector3(-1, 10, 14);
+        vertices[34] = new Vector3(14, 10, -1);
+        vertices[35] = new Vector3(14, 10, 14);
 
-        vertices[36] = new Vector3(-1, 6, -1);
-        vertices[37] = new Vector3(-1, 6, 7);
-        vertices[38] = new Vector3(7, 6, -1);
-        vertices[39] = new Vector3(7, 6, 7);
+        vertices[36] = new Vector3(-1, 12, -1);
+        vertices[37] = new Vector3(-1, 12, 14);
+        vertices[38] = new Vector3(14, 12, -1);
+        vertices[39] = new Vector3(14, 12, 14);
 
         mesh.vertices = vertices;
 
@@ -86,18 +86,21 @@ public class Meja : MonoBehaviour
             // selimut
             1, 3, 0,
             0, 3, 2,
+
             0, 2, 4,
             4, 2, 5,
-            6, 7, 1, 
-            1, 7, 3,
-            4, 5, 6,
-            6, 5, 7,
+
+            12, 14, 1, 
+            1, 14, 3,
+
+            4, 5, 12,
+            12, 5, 14,
             // bawah
-            6, 1, 4,
+            12, 1, 4,
             4, 1, 0,
             // atas 
             2, 3, 5,
-            5, 3, 7,
+            5, 3, 14,
             
             // selimut
             9, 11, 8,
