@@ -229,8 +229,9 @@ GameObject:
   - component: {fileID: 793062345}
   - component: {fileID: 793062344}
   - component: {fileID: 793062343}
+  - component: {fileID: 793062347}
   m_Layer: 0
-  m_Name: MeshCube
+  m_Name: MeshMeja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,9 +246,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 793062342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9461198da04b5c54789e374415ecacbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f1fa9e1ce5b8a74f867a718fa9a1df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mejaMaterial: {fileID: 2100000, guid: 0f36d8c359a5b65448e62a984f3498d0, type: 2}
 --- !u!23 &793062344
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -313,6 +315,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &793062347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793062342}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1fa9e1ce5b8a74f867a718fa9a1df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mejaMaterial: {fileID: 2100000, guid: 0f36d8c359a5b65448e62a984f3498d0, type: 2}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
