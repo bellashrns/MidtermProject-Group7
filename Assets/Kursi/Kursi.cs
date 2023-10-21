@@ -18,61 +18,61 @@ public class Kursi : MonoBehaviour
         var uv = new Vector2[40]; 
 
         //Kaki pertama bawah
-        vertices[0] = new Vector3(-x, -y, -z);
-        vertices[1] = new Vector3(-0.9f, -y, -z);
-        vertices[2] = new Vector3(-x, -y, -0.9f);
-        vertices[3] = new Vector3(-0.9f, -y, -0.9f); 
+        vertices[0] = new Vector3(-10, -20, -10);
+        vertices[1] = new Vector3(-9, -20, -10);
+        vertices[2] = new Vector3(-10, -20, -9);
+        vertices[3] = new Vector3(-9, -20, -9); 
 
         //Kaki pertama atas
-        vertices[4] = new Vector3(-x, 0.0f, -z);
-        vertices[5] = new Vector3(-0.9f, 0.0f, -z);
-        vertices[6] = new Vector3(-x, 0.0f, -0.9f);
-        vertices[7] = new Vector3(-0.9f, 0.0f, -0.9f);
+        vertices[4] = new Vector3(-10, 0, -10);
+        vertices[5] = new Vector3(-9, 0, -10);
+        vertices[6] = new Vector3(-10, 0, -9);
+        vertices[7] = new Vector3(-9, 0, -9);
 
         //Kaki kedua bawah
-        vertices[8] = new Vector3(0.9f, -y, -z);
-        vertices[9] = new Vector3(x, -y, -z);
-        vertices[10] = new Vector3(0.9f, -y, -0.9f);
-        vertices[11] = new Vector3(x, -y, -0.9f);
+        vertices[8] = new Vector3(9, -20, -10);
+        vertices[9] = new Vector3(10, -20, -10);
+        vertices[10] = new Vector3(9, -20, -9);
+        vertices[11] = new Vector3(10, -20, -9);
         //Kaki kedua atas
-        vertices[12] = new Vector3(0.9f, 0.0f, -z);
-        vertices[13] = new Vector3(x, 0.0f, -z);
-        vertices[14] = new Vector3(0.9f, 0.0f, -0.9f);
-        vertices[15] = new Vector3(x, 0.0f, -0.9f);
+        vertices[12] = new Vector3(9, 0, -10);
+        vertices[13] = new Vector3(10, 0, -10);
+        vertices[14] = new Vector3(9, 0, -9);
+        vertices[15] = new Vector3(10, 0, -9);
 
         //Kaki ketiga bawah
-        vertices[16] = new Vector3(-x, -y, 0.9f);
-        vertices[17] = new Vector3(-0.9f, -y, 0.9f);
-        vertices[18] = new Vector3(-x, -y, z);
-        vertices[19] = new Vector3(-0.9f, -y, z);
+        vertices[16] = new Vector3(-10, -20, 9);
+        vertices[17] = new Vector3(-9, -20, 9);
+        vertices[18] = new Vector3(-10, -20, 10);
+        vertices[19] = new Vector3(-9, -20, 10);
         //Kaki ketiga atas
-        vertices[20] = new Vector3(-x, 0.0f, 0.9f);
-        vertices[21] = new Vector3(-0.9f, 0.0f, 0.9f);
-        vertices[22] = new Vector3(-x, 0.0f, z);
-        vertices[23] = new Vector3(-0.9f, 0.0f, z);
+        vertices[20] = new Vector3(-10, 0, 9);
+        vertices[21] = new Vector3(-9, 0, 9);
+        vertices[22] = new Vector3(-10, 0, 10);
+        vertices[23] = new Vector3(-9, 0, 10);
 
         //Kaki keempat bawah
-        vertices[24] = new Vector3(0.9f, -y, 0.9f);
-        vertices[25] = new Vector3(x, -y, 0.9f);
-        vertices[26] = new Vector3(0.9f, -y, z);
-        vertices[27] = new Vector3(x, -y, z);
+        vertices[24] = new Vector3(9, -20, 9);
+        vertices[25] = new Vector3(10, -20, 9);
+        vertices[26] = new Vector3(9, -20, 10);
+        vertices[27] = new Vector3(10, -20, 10);
         //Kaki keempat atas
-        vertices[28] = new Vector3(0.9f, 0.0f, 0.9f);
-        vertices[29] = new Vector3(x, 0.0f, 0.9f);
-        vertices[30] = new Vector3(0.9f, 0.0f, z);
-        vertices[31] = new Vector3(x, 0.0f, z);
+        vertices[28] = new Vector3(9, 0, 9);
+        vertices[29] = new Vector3(10, 0, 9);
+        vertices[30] = new Vector3(9, 0, 10);
+        vertices[31] = new Vector3(10, 0, 10);
 
         //Pantat Kursi
-        vertices[32] = new Vector3(-x, 0.2f, -z); //4
-        vertices[33] = new Vector3(x, 0.2f, -z); //13
-        vertices[34] = new Vector3(-x, 0.2f, z); //22
-        vertices[35] = new Vector3(x, 0.2f, z); //31
+        vertices[32] = new Vector3(-10, 2, -10); //4
+        vertices[33] = new Vector3(10, 2, -10); //13
+        vertices[34] = new Vector3(-10, 2, 10); //22
+        vertices[35] = new Vector3(10, 2, 10); //31
 
         //Senderan Kursi Atas
-        vertices[36] = new Vector3(-x, y, 0.9f);
-        vertices[37] = new Vector3(x, y, 0.9f);
-        vertices[38] = new Vector3(-x, y, z);
-        vertices[39] = new Vector3(x, y, z);
+        vertices[36] = new Vector3(-10, 20, 9);
+        vertices[37] = new Vector3(10, 20, 9);
+        vertices[38] = new Vector3(-10, 20, 10);
+        vertices[39] = new Vector3(10, 20, 10);
         mesh.vertices = vertices;
 
         for (int i = 0; i < 40; i += 4){
@@ -157,9 +157,9 @@ public class Kursi : MonoBehaviour
             Color32[] colors = new Color32[length];
             for (int i = 0; i < length; i++)
             {
-                byte valueR = (byte)(Random.Range(0.0f, 1.0f) * 255);
-                byte valueG = (byte)(Random.Range(0.0f, 1.0f) * 255);
-                byte valueB = (byte)(Random.Range(0.0f, 1.0f) * 255);
+                byte valueR = (byte)(Random.Range(0, 1.0f) * 255);
+                byte valueG = (byte)(Random.Range(0, 1.0f) * 255);
+                byte valueB = (byte)(Random.Range(0, 1.0f) * 255);
                 colors[i] = new Color32(valueR, valueG, valueB, 255);
             }
             mesh.colors32 = colors;
