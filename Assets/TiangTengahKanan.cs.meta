@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/Scripts/Jewuk/Jewuk.cs.meta
+<<<<<<<< HEAD:Assets/Resources/Scripts/Jewuk/Jewuk.cs.meta
+guid: 37fd14ed232f8384184f87b5c55a4c73
+========
+guid: 5f1fa9e1ce5b8a74f867a718fa9a1df1
+>>>>>>>> meja:Assets/Meja.cs.meta
+=======
+guid: 12d4c52570daa40db848cb526f0b2f2e
+>>>>>>> jeruk:Assets/TiangTengahKanan.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
