@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA9FC81D-629F-374D-7188-AC14F97CB8CD}</ProjectGuid>
+    <ProjectGuid>{B1E19CBD-1BB5-0859-1364-4CF9145355BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,7 +58,41 @@
     <Analyzer Include="D:\Prog\Unity\Hub\Editor\2022.3.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cube.cs" />
+    <Compile Include="Assets\Resources\Scripts\Lampu\TiangLampu.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali8.cs" />
+    <Compile Include="Assets\Resources\Scripts\Lampu\Pointlamp.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\TaliAyunan\TaliAyunan2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\DetailTiang2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali7.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\TaliAyunan\TaliAyunan1.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali3.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali4.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\TaliAyunan\TaliAyunan4.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\KiriAtas.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\DetailTiang1.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\Kiri1.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Dudukan\Ayunan2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Meja\Meja.cs" />
+    <Compile Include="Assets\Resources\Scripts\Movements\CameraScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Dudukan\Ayunan1.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\KananAtas.cs" />
+    <Compile Include="Assets\Resources\Scripts\Jewuk\Jewuk.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\Kanan2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\TengahAtas.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali6.cs" />
+    <Compile Include="Assets\Resources\Scripts\Lampu\SpotLamp.cs" />
+    <Compile Include="Assets\Resources\Scripts\Lampu\TiangSpotlight.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\Kiri2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali5.cs" />
+    <Compile Include="Assets\Resources\Scripts\Lights\DayNightCycle.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali2.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tiang\Kanan1.cs" />
+    <Compile Include="Assets\Resources\Scripts\Kursi\Kursi.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\TaliAyunan\TaliAyunan3.cs" />
+    <Compile Include="Assets\Resources\Scripts\Ayunan\Tali\Tali1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Material\WarnaTiang.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Resources/Scripts/Lights/DayNightCycle.cs.meta
 guid: 62698dfb67648ed449ab155d88e56434
-========
-guid: 706d2dc48afcc45468186bbea041891f
->>>>>>>> kursi:Assets/Kursi.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - cubeMaterial: {fileID: 2100000, guid: d81d5ff98eceb8d4fbbbe11eedd65a20, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

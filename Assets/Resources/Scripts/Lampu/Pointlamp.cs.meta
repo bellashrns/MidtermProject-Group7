@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/Scripts/Jewuk/Jewuk.cs.meta
+guid: 09bbf19f87a9e0047ae38cb4f34c5a2a
+========
+guid: 6048f34bde6f5824b84e35e26917112f
+>>>>>>>> lampu-taman:Assets/Pointlamp.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
